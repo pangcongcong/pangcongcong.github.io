@@ -11,12 +11,12 @@
 <meta property="og:url" content="http://ccpang.com/2018/08/14/mini_pro/index.html">
 <meta property="og:site_name" content="Hexo">
 <meta property="og:description" content="过两天就是七夕，问了下卢先生想要什么礼物，想了半天，结果说要不你给我讲点前端的知识点吧(๑•̀ㅂ•́) ✧，😂(无奈脸)顺便，这片文章算是这段时间开发小程序以来的一个整理吧。更新什么的随心情୧(๑•̀⌄•́๑)૭✧官方教程 准备工作1.申请小程序，没有的话请点击这里2.安装微信开发工具，点击这里，新建项目，选择项目路径填写AppID。 ##小程序基本知识 app.json 是当前小程序的全局配置">
-<meta property="og:image" content="http://ccpang.com/2018/08/14/mini_pro/img/mini_pro/logs.png">
-<meta property="og:updated_time" content="2018-08-14T09:41:19.372Z">
+<meta property="og:image" content="http://ccpang.com/2018/08/14/mini_pro/img/mini_pro/logs.png,">
+<meta property="og:updated_time" content="2018-08-14T09:44:47.834Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="小程序--（一）入门篇">
 <meta name="twitter:description" content="过两天就是七夕，问了下卢先生想要什么礼物，想了半天，结果说要不你给我讲点前端的知识点吧(๑•̀ㅂ•́) ✧，😂(无奈脸)顺便，这片文章算是这段时间开发小程序以来的一个整理吧。更新什么的随心情୧(๑•̀⌄•́๑)૭✧官方教程 准备工作1.申请小程序，没有的话请点击这里2.安装微信开发工具，点击这里，新建项目，选择项目路径填写AppID。 ##小程序基本知识 app.json 是当前小程序的全局配置">
-<meta name="twitter:image" content="http://ccpang.com/2018/08/14/mini_pro/img/mini_pro/logs.png">
+<meta name="twitter:image" content="http://ccpang.com/2018/08/14/mini_pro/img/mini_pro/logs.png,">
   
     <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -54,9 +54,9 @@
       </nav>
       <nav id="sub-nav">
         
-          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="Flux RSS"></a>
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
         
-        <a id="nav-search-btn" class="nav-icon" title="Rechercher"></a>
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
       </nav>
       <div id="search-form-wrap">
         <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://ccpang.com"></form>
@@ -92,7 +92,7 @@
 <p>##小程序基本知识</p>
 <p>app.json 是当前小程序的全局配置，包括了小程序的所有页面路径、界面表现、网络超时时间、底部 tab 等。<br>app.json 配置内容如下：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div></pre></td><td class="code"><pre><div class="line">&#123;</div><div class="line">  <span class="string">"pages"</span>:[</div><div class="line">    <span class="string">"pages/index/index"</span>,</div><div class="line">    <span class="string">"pages/logs/logs"</span></div><div class="line">  ],</div><div class="line">  <span class="string">"window"</span>:&#123;</div><div class="line">    <span class="string">"backgroundTextStyle"</span>:<span class="string">"light"</span>,</div><div class="line">    <span class="string">"navigationBarBackgroundColor"</span>: <span class="string">"#fff"</span>,</div><div class="line">    <span class="string">"navigationBarTitleText"</span>: <span class="string">"WeChat"</span>,</div><div class="line">    <span class="string">"navigationBarTextStyle"</span>:<span class="string">"black"</span></div><div class="line">  &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
 <p>其中：<br>1.pages字段 —— 用于描述当前小程序所有页面路径，这是为了让微信客户端知道当前你的小程序页面定义在哪个目录。<br>2.window字段 —— 定义小程序所有页面的顶部背景颜色，文字颜色定义等。</p>
-<p>以logs文件夹为例：<br><img src="./img/mini_pro/logs.png" alt="logs" title="logs"><br>.wxml对应web开发的html，xml等标记语言(语法有所不同，仅支持部分标签)；<br>.wxss对应web开发的css,（仅支持部分属性,单位为小程序特有的rpx）；<br>.js对应js（类vue语法）；<br>.json当前页面的配置文件，设置页面属性，如是否是组件以及是否使用组件等等；</p>
+<p>以logs文件夹为例：<br><img src="./img/mini_pro/logs.png," alt="logs" title="logs"><br>.wxml对应web开发的html，xml等标记语言(语法有所不同，仅支持部分标签)；<br>.wxss对应web开发的css,（仅支持部分属性,单位为小程序特有的rpx）；<br>.js对应js（类vue语法）；<br>.json当前页面的配置文件，设置页面属性，如是否是组件以及是否使用组件等等；</p>
 <p>log.js大体内容<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">Page(&#123;</div><div class="line">  data: &#123; // 参与页面渲染的数据</div><div class="line">    logs: []</div><div class="line">  &#125;,</div><div class="line">  onLoad: <span class="function"><span class="title">function</span></span> () &#123;</div><div class="line">    // 页面渲染后 执行</div><div class="line">  &#125;</div><div class="line">&#125;)</div></pre></td></tr></table></figure></p>
 <p>##扩展</p>
 <p><a href="https://developers.weixin.qq.com/miniprogram/dev/framework/MINA.html" target="_blank" rel="external">框架</a><br><a href="https://developers.weixin.qq.com/miniprogram/dev/component/" target="_blank" rel="external">组件</a><br><a href="https://developers.weixin.qq.com/miniprogram/dev/api/" target="_blank" rel="external">API</a></p>
@@ -100,7 +100,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://ccpang.com/2018/08/14/mini_pro/" data-id="cjktirhwu000213srr2842e3m" class="article-share-link">Partager</a>
+      <a data-url="http://ccpang.com/2018/08/14/mini_pro/" data-id="cjktirhwu000213srr2842e3m" class="article-share-link">Share</a>
       
       
     </footer>
@@ -111,7 +111,7 @@
   
   
     <a href="/2018/04/03/sakura/" id="article-nav-older" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">Ancien</strong>
+      <strong class="article-nav-caption">Older</strong>
       <div class="article-nav-title">mpvue实战</div>
     </a>
   
@@ -144,7 +144,7 @@
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">Articles récents</h3>
+    <h3 class="widget-title">Recent Posts</h3>
     <div class="widget">
       <ul>
         
@@ -177,7 +177,7 @@
   <div class="outer">
     <div id="footer-info" class="inner">
       &copy; 2018 John Doe<br>
-      Propulsé by <a href="http://hexo.io/" target="_blank">Hexo</a>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
     </div>
   </div>
 </footer>
