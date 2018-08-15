@@ -48,9 +48,9 @@
       </nav>
       <nav id="sub-nav">
         
-          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="Flux RSS"></a>
         
-        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+        <a id="nav-search-btn" class="nav-icon" title="Rechercher"></a>
       </nav>
       <div id="search-form-wrap">
         <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://ccpang.com"></form>
@@ -98,7 +98,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://ccpang.com/2018/08/15/css_basic/" data-id="cjkusklpb0000iosrlzhhqbsi" class="article-share-link">Share</a>
+      <a data-url="http://ccpang.com/2018/08/15/css_basic/" data-id="cjkusklpb0000iosrlzhhqbsi" class="article-share-link">Partager</a>
       
       
     </footer>
@@ -135,7 +135,7 @@
 <p>##小程序基本知识</p>
 <p>app.json 是当前小程序的全局配置，包括了小程序的所有页面路径、界面表现、网络超时时间、底部 tab 等。<br>app.json 配置内容如下：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div></pre></td><td class="code"><pre><div class="line">&#123;</div><div class="line">  <span class="string">"pages"</span>:[</div><div class="line">    <span class="string">"pages/index/index"</span>,</div><div class="line">    <span class="string">"pages/logs/logs"</span></div><div class="line">  ],</div><div class="line">  <span class="string">"window"</span>:&#123;</div><div class="line">    <span class="string">"backgroundTextStyle"</span>:<span class="string">"light"</span>,</div><div class="line">    <span class="string">"navigationBarBackgroundColor"</span>: <span class="string">"#fff"</span>,</div><div class="line">    <span class="string">"navigationBarTitleText"</span>: <span class="string">"WeChat"</span>,</div><div class="line">    <span class="string">"navigationBarTextStyle"</span>:<span class="string">"black"</span></div><div class="line">  &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
 <p>其中：<br>1.pages字段 —— 用于描述当前小程序所有页面路径，这是为了让微信客户端知道当前你的小程序页面定义在哪个目录。<br>2.window字段 —— 定义小程序所有页面的顶部背景颜色，文字颜色定义等。</p>
-<p>以logs文件夹为例：<br><img src="./img/sakura/menu.png" alt="logs" title="logs,Social Coding"><br>.wxml对应web开发的html，xml等标记语言(语法有所不同，仅支持部分标签)；<br>.wxss对应web开发的css,（仅支持部分属性,单位为小程序特有的rpx）；<br>.js对应js（类vue语法）；<br>.json当前页面的配置文件，设置页面属性，如是否是组件以及是否使用组件等等；</p>
+<p>以logs文件夹为例：<br><img src="./img/mini_pro/logs.png" alt="logs" title="logs,Social Coding"><br>.wxml对应web开发的html，xml等标记语言(语法有所不同，仅支持部分标签)；<br>.wxss对应web开发的css,（仅支持部分属性,单位为小程序特有的rpx）；<br>.js对应js（类vue语法）；<br>.json当前页面的配置文件，设置页面属性，如是否是组件以及是否使用组件等等；</p>
 <p>log.js大体内容<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">Page(&#123;</div><div class="line">  data: &#123; // 参与页面渲染的数据</div><div class="line">    logs: []</div><div class="line">  &#125;,</div><div class="line">  onLoad: <span class="function"><span class="title">function</span></span> () &#123;</div><div class="line">    // 页面渲染后 执行</div><div class="line">  &#125;</div><div class="line">&#125;)</div></pre></td></tr></table></figure></p>
 <p>##扩展</p>
 <p><a href="https://developers.weixin.qq.com/miniprogram/dev/framework/MINA.html" target="_blank" rel="external">框架</a><br><a href="https://developers.weixin.qq.com/miniprogram/dev/component/" target="_blank" rel="external">组件</a><br><a href="https://developers.weixin.qq.com/miniprogram/dev/api/" target="_blank" rel="external">API</a></p>
@@ -143,7 +143,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://ccpang.com/2018/08/14/mini_pro/" data-id="cjktitqyc0001drsr9n1vsszd" class="article-share-link">Share</a>
+      <a data-url="http://ccpang.com/2018/08/14/mini_pro/" data-id="cjktitqyc0001drsr9n1vsszd" class="article-share-link">Partager</a>
       
       
     </footer>
@@ -203,7 +203,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://ccpang.com/2018/04/03/sakura/" data-id="cjktitqyg0003drsrfmiw6p6v" class="article-share-link">Share</a>
+      <a data-url="http://ccpang.com/2018/04/03/sakura/" data-id="cjktitqyg0003drsrfmiw6p6v" class="article-share-link">Partager</a>
       
       
     </footer>
@@ -248,7 +248,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://ccpang.com/2017/09/29/markdown/" data-id="cjktitqy90000drsrcj2z039x" class="article-share-link">Share</a>
+      <a data-url="http://ccpang.com/2017/09/29/markdown/" data-id="cjktitqy90000drsrcj2z039x" class="article-share-link">Partager</a>
       
       
     </footer>
@@ -293,7 +293,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://ccpang.com/2017/09/29/hello-world/" data-id="cjktitqye0002drsr7uvfssdu" class="article-share-link">Share</a>
+      <a data-url="http://ccpang.com/2017/09/29/hello-world/" data-id="cjktitqye0002drsr7uvfssdu" class="article-share-link">Partager</a>
       
       
     </footer>
@@ -328,7 +328,7 @@
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">Recent Posts</h3>
+    <h3 class="widget-title">Articles récents</h3>
     <div class="widget">
       <ul>
         
@@ -365,7 +365,7 @@
   <div class="outer">
     <div id="footer-info" class="inner">
       &copy; 2018 John Doe<br>
-      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+      Propulsé by <a href="http://hexo.io/" target="_blank">Hexo</a>
     </div>
   </div>
 </footer>
