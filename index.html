@@ -50,7 +50,7 @@
         
           <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
         
-        <a id="nav-search-btn" class="nav-icon" title="Zoeken"></a>
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
       </nav>
       <div id="search-form-wrap">
         <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://ccpang.com"></form>
@@ -60,6 +60,53 @@
 </header>
       <div class="outer">
         <section id="main">
+  
+    <article id="post-css_basic" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2018/08/15/css_basic/" class="article-date">
+  <time datetime="2018-08-15T06:03:58.531Z" itemprop="datePublished">2018-08-15</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2018/08/15/css_basic/">css基础知识点梳理</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>本文仅梳理css基础知识点，包含平时常用或遗漏的css属性，不定期更新。</p>
+<h2 id="盒模型（CSS-Basic-model）"><a href="#盒模型（CSS-Basic-model）" class="headerlink" title="盒模型（CSS Basic model）"></a>盒模型（CSS Basic model）</h2><h3 id="1-盒模型概念"><a href="#1-盒模型概念" class="headerlink" title="1.盒模型概念"></a>1.盒模型概念</h3><p>在CSS中，使用标准盒模型描述这些矩形盒子中的每一个。这个模型描述了元素所占空间的内容。每个盒子有四个边：外边距边（Margin Edge）, 边框边（Border Edge）, 内填充边（Padding Edge） 与 内容边（Content Edge）。</p>
+<p>如图：</p>
+<p><img src="./img/css_basic/box.png" alt="图一 css盒模型"></p>
+<p>盒模型分为IE盒模型和W3C标准盒模型。</p>
+<ol>
+<li>W3C 标准盒模型：<br>属性width,height只包含内容content，不包含border和padding，也就是width=content；</li>
+<li>IE 盒模型：<br>属性width,height包含border和padding，也就是width = content+padding+border。</li>
+</ol>
+<p>这两种类型的切换在IE8+浏览器可以使用box-sizing属性控制<br>content-box：默认值，标准盒模型；<br>border-box：IE盒模型；</p>
+<p>注：若不声明DOCTYPE类型，ie浏览器会解释为IE盒子模型，其他如FF会解释为W3C盒模型；声明DOCTYPE类型，则所有浏览器都会解释为W3C盒模型。</p>
+<h3 id="position详解"><a href="#position详解" class="headerlink" title="position详解"></a>position详解</h3>
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://ccpang.com/2018/08/15/css_basic/" data-id="cjkusklpb0000iosrlzhhqbsi" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
   
     <article id="post-mini_pro" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
@@ -96,7 +143,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://ccpang.com/2018/08/14/mini_pro/" data-id="cjktitqyc0001drsr9n1vsszd" class="article-share-link">Delen</a>
+      <a data-url="http://ccpang.com/2018/08/14/mini_pro/" data-id="cjktitqyc0001drsr9n1vsszd" class="article-share-link">Share</a>
       
       
     </footer>
@@ -156,7 +203,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://ccpang.com/2018/04/03/sakura/" data-id="cjktitqyg0003drsrfmiw6p6v" class="article-share-link">Delen</a>
+      <a data-url="http://ccpang.com/2018/04/03/sakura/" data-id="cjktitqyg0003drsrfmiw6p6v" class="article-share-link">Share</a>
       
       
     </footer>
@@ -201,7 +248,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://ccpang.com/2017/09/29/markdown/" data-id="cjktitqy90000drsrcj2z039x" class="article-share-link">Delen</a>
+      <a data-url="http://ccpang.com/2017/09/29/markdown/" data-id="cjktitqy90000drsrcj2z039x" class="article-share-link">Share</a>
       
       
     </footer>
@@ -246,7 +293,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://ccpang.com/2017/09/29/hello-world/" data-id="cjktitqye0002drsr7uvfssdu" class="article-share-link">Delen</a>
+      <a data-url="http://ccpang.com/2017/09/29/hello-world/" data-id="cjktitqye0002drsr7uvfssdu" class="article-share-link">Share</a>
       
       
     </footer>
@@ -271,7 +318,7 @@
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">Archieven</h3>
+    <h3 class="widget-title">Archives</h3>
     <div class="widget">
       <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/08/">August 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/04/">April 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/09/">September 2017</a></li></ul>
     </div>
@@ -281,9 +328,13 @@
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">Recente berichten</h3>
+    <h3 class="widget-title">Recent Posts</h3>
     <div class="widget">
       <ul>
+        
+          <li>
+            <a href="/2018/08/15/css_basic/">css基础知识点梳理</a>
+          </li>
         
           <li>
             <a href="/2018/08/14/mini_pro/">小程序--（一）入门篇</a>
